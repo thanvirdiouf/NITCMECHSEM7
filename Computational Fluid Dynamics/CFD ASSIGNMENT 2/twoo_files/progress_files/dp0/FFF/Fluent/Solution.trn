@@ -1,0 +1,122 @@
+Transcript Start Time:  04:53:13, 12 Nov 2023 India Standard Time 
+Current Directory: "D:\NITCMECHSEM7\Computational Fluid Dynamics\CFD assignment\q2distributary"
+
+Build Time: May 29 2023 07:55:29 EDT 
+Executable Path: C:/PROGRA~1/ANSYSI~1/ANSYSS~1/v232/fluent/ntbin/win64/fluent.exe
+
+----------------------------------------------------------------------------------
+ID    Hostname         Core  O.S.         PID    Vendor                           
+----------------------------------------------------------------------------------
+n3    LAPTOP-57O9LBH0  4/8  Windows-x64  2228   Intel(R) Core(TM) i5-10300H      
+n2    LAPTOP-57O9LBH0  3/8  Windows-x64  1404   Intel(R) Core(TM) i5-10300H      
+n1    LAPTOP-57O9LBH0  2/8  Windows-x64  9384   Intel(R) Core(TM) i5-10300H      
+n0*   LAPTOP-57O9LBH0  1/8  Windows-x64  6128   Intel(R) Core(TM) i5-10300H      
+host  LAPTOP-57O9LBH0       Windows-x64  13700  Intel(R) Core(TM) i5-10300H      
+
+MPI Option Selected: intel
+Selected system interconnect: default
+----------------------------------------------------------------------------------
+
+Cortex Process ID: 14700 
+License Server Path: () 
+Multicore SMT processors detected. Processor affinity set!
+Reading setting file in cache: "D:\NITCMECHSEM7\Computational Fluid Dynamics\CFD assignment\q2distributary\q2contin_files\dp0\FFF\Fluent\FFF.2.set"
+Reading "D:\NITCMECHSEM7\Computational Fluid Dynamics\CFD assignment\q2distributary\q2contin_files\dp0\FFF\MECH\FFF.3.msh"...
+Buffering for file scan...
+
+   38961 nodes, binary.
+    2080 nodes, binary.
+   78960 2D interior faces, zone  1, binary.
+      40 2D velocity-inlet faces, zone  5, binary.
+      40 2D pressure-outlet faces, zone  6, binary.
+    1000 2D wall faces, zone  7, binary.
+    1000 2D wall faces, zone  8, binary.
+   40000 quadrilateral cells, zone  2, binary.
+
+
+
+Following contexts active in the case file have been de-activated because of their current context control conditions:
+"coupled-pseudo-transient"
+
+Building...
+     mesh
+	auto partitioning mesh by Metis (fast),
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 1050/41 = 25.6098
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	lower_wall
+	upper_wall
+	outlet
+	inlet
+	surface_body
+	interior-surface_bodySetting surface_body (mixture) ... Done.
+
+Applying mesh operation "Change Zone Type"
+
+Applying mesh operation "Change Zone Type [ 2 ]"
+
+Applying mesh operation "Change Zone Type [ 3 ]"
+
+Applying mesh operation "Change Zone Type [ 4 ]"
+ Setting zone id of surface_body to 2.
+ Setting zone id of outlet to 6.
+ Setting zone id of inlet to 5.
+ Setting zone id of interior-surface_body to 1.
+ Setting zone id of upper_wall to 7.
+ Setting zone id of lower_wall to 8.
+Done.
+Setting surface_body (mixture) ... Done.
+Setting outlet (mixture) ... Done.
+Setting inlet (mixture) ... Done.
+Setting interior-surface_body (mixture) ... Done.
+Setting upper_wall (mixture) ... Done.
+Setting lower_wall (mixture) ... Done.
+
+     parallel,
+Done.
+
+Preparing mesh for display...
+Done.
+
+Setting Post Processing and Surfaces information ...	 Done.
+Fast-loading "C:\PROGRA~1\ANSYSI~1\ANSYSS~1\v232\fluent\fluent23.2.0\\addons\afd\lib\hdfio.bin"
+Done.
+
+Writing to LAPTOP-57O9LBH0:"D:\NITCMECHSEM7\Computational Fluid Dynamics\CFD assignment\q2distributary\q2contin_files\dp0\FFF\Fluent\FFF.3-Setup-Output.cas.h5" in NODE0 mode and compression level 1 ...
+Grouping cells for Laplace smoothing ...
+       40000 cells,     1 zone  ...
+       81040 faces,     5 zones ...
+       41041 nodes,     1 zone  ...
+  Done.
+Done.
+
+Performance Timer for 0 iterations on 4 compute nodes
+  Average wall-clock time per iteration:                0.000 sec
+  Global reductions per iteration:                          0 ops
+  Global reductions time per iteration:                 0.000 sec (0.0%)
+  Message count per iteration:                              0 messages
+  Data transfer per iteration:                          0.000 MB
+  LE solves per iteration:                                  0 solves
+  LE wall-clock time per iteration:                     0.000 sec (0.0%)
+  LE global solves per iteration:                           0 solves
+  LE global wall-clock time per iteration:              0.000 sec (0.0%)
+  LE global matrix maximum size:                            0
+  AMG cycles per iteration:                             0.000 cycles
+  Relaxation sweeps per iteration:                          0 sweeps
+  Relaxation exchanges per iteration:                       0 exchanges
+  LE early protections (stall) per iteration:           0.000 times
+  LE early protections (divergence) per iteration:      0.000 times
+  Total SVARS touched:                                    368
+
+  Total wall-clock time:                                0.000 sec
+
+Transcript Stop Time:  04:53:30, 12 Nov 2023 India Standard Time 
+Total Transcript Time: 0 Minute 17 Second.

@@ -2,16 +2,17 @@
 <Storage>
   <Project Version="9.1">
     <base-designpoint-name valType="String">0</base-designpoint-name>
-    <timestamp-max valType="Int64">2434</timestamp-max>
+    <timestamp-max valType="Int64">2457</timestamp-max>
     <framework-build-version valType="String">23.2.142.0</framework-build-version>
     <external-version-string valType="String">2023 R2</external-version-string>
-    <last-saved-utc valType="String">09/30/2023 10:24:57</last-saved-utc>
+    <last-saved-utc valType="String">11/11/2023 09:20:54</last-saved-utc>
     <managed-categories valType="String">[report, misc, progress]</managed-categories>
     <logHistory valType="StringArray">
       <ArrayEntry Index="0">Thanvir Diouf S@LAPTOP-57O9LBH0:C:\Users\Thanvir Diouf S\AppData\Local\Temp\WorkbenchLogs\CoreEvents10512.log</ArrayEntry>
       <ArrayEntry Index="1">Thanvir Diouf S@LAPTOP-57O9LBH0:C:\Users\Thanvir Diouf S\AppData\Local\Temp\WorkbenchLogs\CoreEvents10364.log</ArrayEntry>
       <ArrayEntry Index="2">Thanvir Diouf S@LAPTOP-57O9LBH0:C:\Users\Thanvir Diouf S\AppData\Local\Temp\WorkbenchLogs\CoreEvents17044.log</ArrayEntry>
       <ArrayEntry Index="3">Thanvir Diouf S@LAPTOP-57O9LBH0:C:\Users\Thanvir Diouf S\AppData\Local\Temp\WorkbenchLogs\CoreEvents19976.log</ArrayEntry>
+      <ArrayEntry Index="4">Thanvir Diouf S@LAPTOP-57O9LBH0:C:\Users\Thanvir Diouf S\AppData\Local\Temp\WorkbenchLogs\CoreEvents15984.log</ArrayEntry>
     </logHistory>
     <expression-scope-container valType="String">Parameters</expression-scope-container>
     <project-type valType="String">WB2</project-type>
@@ -59,7 +60,8 @@
 "d2fe12b0-1f23-4d3f-be59-0d440e27e58a": "/FileTypesContainer/FileType:FLUENTData",
 "41a95ba2-dcff-430f-bb1a-59d7cee6e9a9": "/FileTypesContainer/FileType:CFDPostState",
 "39ef9b89-9180-433f-bdc8-e99e1269dd6b": "/FileContainer/FileReference:F13",
-"b9be1287-5049-4cb1-ac3e-89f907b3203b": "/FileContainer/FileReference:F14"
+"b9be1287-5049-4cb1-ac3e-89f907b3203b": "/FileContainer/FileReference:F14",
+"68ab4465-ec5d-4944-9d3d-30f18bc9f8b3": "/Parameters/Parameter:P1"
 }</ReferenceList>
       </ProjectReferenceList>
       <DesignPointReferenceListCollection>
@@ -75,7 +77,8 @@
 "fc81ac7e-50b0-4a71-9f41-4546bc9e16dd": "/Results/SolutionDataLink:SolutionDataProvider",
 "918bbbe8-9102-4790-b340-30567dbfce25": "/Results/CFDResults:Results Source",
 "9cccbeea-807d-4fe5-9a3a-75ab98c0509d": "/Mesh/MechanicalModel:MechanicalModel",
-"de305910-c84f-40b5-ab86-599cd01707d7": "/Mesh/MechanicalMeshFile:FluentMesh"
+"de305910-c84f-40b5-ab86-599cd01707d7": "/Mesh/MechanicalMeshFile:FluentMesh",
+"6fe579c0-e9b7-49c9-959b-d02d16dbf5f9": "/Mesh/ParameterAdapter1:fb0279bd-ded7-4f1b-a781-1b9b3530332a"
 }</ReferenceList>
         </DesignPointReferenceList>
       </DesignPointReferenceListCollection>
@@ -126,7 +129,7 @@
       <Object Name="/FileContainer/FileReference:F3" Version="1.0">
         <class-type valType="String">FileReference</class-type>
         <object-name valType="String">F3</object-name>
-        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$fe5f6d2e-b0b6-4f05-9e38-fcc9eaa53d5b, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 6}</member-data>
+        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$fe5f6d2e-b0b6-4f05-9e38-fcc9eaa53d5b, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 7}</member-data>
       </Object>
       <Object Name="/FileContainer/FileReference:F4" Version="1.0">
         <class-type valType="String">FileReference</class-type>
@@ -205,13 +208,13 @@
       <maxUpdateOrder valType="Double">1</maxUpdateOrder>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 2143, "Input": 1495, "Output": 1494}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 2143, "Input": 2448, "Output": 1494}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <contains-significant-data valType="Boolean">false</contains-significant-data>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Parameters/DesignPoint:0" Version="1.0">
         <class-type valType="String">DesignPoint</class-type>
         <object-name valType="String">0</object-name>
-        <member-data valType="String">{"DisplayText": "DP 0", "JustDuplicated": False, "PartiallyRetainedData": [], "ValidRetainedData": [], "ErrorsOnLastUpdate": {}, "LastUpdateInformation": {"DidUpdate": "True", "DidPreRsmUpdate": "False", "UpdatedComponents": "Mesh in FFF"}, "Parameters": {}, "ParameterErrors": {}, "CurrentValues": {}, "ParameterStatus": {}, "Note": None, "IsUpToDate": False, "Exported": True, "Retained": True, "CurrentStateExported": False, "IsDataModelValid": True, "HasRetainedData": True, "HasBeenSolved": False, "UpdateOrder": 1}</member-data>
+        <member-data valType="String">{"DisplayText": "DP 0", "JustDuplicated": False, "PartiallyRetainedData": [], "ValidRetainedData": [], "ErrorsOnLastUpdate": {}, "LastUpdateInformation": {"DidUpdate": "True", "DidPreRsmUpdate": "False", "UpdatedComponents": "Mesh in FFF"}, "Parameters": {"$$68ab4465-ec5d-4944-9d3d-30f18bc9f8b3": "5"}, "ParameterErrors": {}, "CurrentValues": {"$$68ab4465-ec5d-4944-9d3d-30f18bc9f8b3": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "5"}}, "ParameterStatus": {"$$68ab4465-ec5d-4944-9d3d-30f18bc9f8b3": "UpToDate"}, "Note": None, "IsUpToDate": False, "Exported": True, "Retained": True, "CurrentStateExported": False, "IsDataModelValid": True, "HasRetainedData": True, "HasBeenSolved": False, "UpdateOrder": 1}</member-data>
         <properties-setByUserFlag-data valType="String">["IsDataModelValid"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Parameters/DesignPointReportSetting:Design Points Report Setting" Version="1.0">
@@ -219,7 +222,20 @@
         <object-name valType="String">Design Points Report Setting</object-name>
         <member-data valType="String">{"DisplayText": "Design Points Report Setting", "DesignPointReportImage": "None"}</member-data>
       </Object>
-      <ParameterToPropertyMap />
+      <Object Name="/Parameters/Parameter:P1" Version="1.0">
+        <class-type valType="String">Parameter</class-type>
+        <object-name valType="String">P1</object-name>
+        <member-data valType="String">{"DisplayText": "Edge Sizing Number of Divisions", "PersistedNamedValueEntityReference": None, "Expression": "5", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "5"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Default": "5", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
+      </Object>
+      <ParameterToPropertyMap>
+        <Parameter Name="/Parameters/Parameter:P1">
+          <ParameterReference valType="String">68ab4465-ec5d-4944-9d3d-30f18bc9f8b3</ParameterReference>
+          <LinkedEntityProperty>
+            <EntityReference valType="String">6fe579c0-e9b7-49c9-959b-d02d16dbf5f9</EntityReference>
+            <Property valType="String">Value</Property>
+          </LinkedEntityProperty>
+        </Parameter>
+      </ParameterToPropertyMap>
     </Container>
     <Container Name="Schematic" Version="1.0">
       <container-type valType="String">Ansys.ProjectSchematic.ProjectSchematicAddin:Default</container-type>

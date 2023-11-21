@@ -1,0 +1,48 @@
+﻿# 
+# This file contains the parameter values of the Design Points successfully updated by Ansys Workbench.
+# Project name: q1
+# Creation date: 11/10/2023 23:49:16
+# 
+# 11/10/2023 23:49:16
+# The parameters defined in the project are:
+# ,P1 - Edge Sizing Number of Divisions,P2 - Mesh Nodes,P3 - Mesh Elements,P4 - OUT-VELO [m s^-1]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P1,P2,P3,P4
+DP 0,5,41041,40000,0
+DP 1,10,41041,40000,0
+DP 2,20,41041,40000,0
+# 
+# A non parametric change occurred and invalidated design point results.
+# 11/11/2023 00:11:53
+# 
+# 
+# 11/11/2023 00:22:10
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P1 - Q1-OUT-VELO [m s^-1],P2 - Edge Sizing Number of Divisions,P3 - Mesh Nodes,P4 - Mesh Elements
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P1,P2,P3,P4
+DP 1,4.9999785,10,41041,40000
+DP 2,4.9999785,20,41041,40000
+DP 3,4.9999785,40,41041,40000
+DP 4,4.9999785,80,41317,40262
+# 
+# A non parametric change occurred and invalidated design point results.
+# 11/11/2023 00:41:55
+# 
+# 
+# A non parametric change occurred and invalidated design point results.
+# 11/11/2023 11:47:09
+# 
+# 
+# 11/12/2023 17:19:46
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P1 - Q1-OUT-VELO [m s^-1],P3 - Mesh Nodes,P4 - Mesh Elements
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P1,P3,P4
+DP 1,4.999979,41041,40000
+DP 2,4.999979,41041,40000
+DP 3,4.999979,41041,40000
+DP 4,4.999979,41041,40000

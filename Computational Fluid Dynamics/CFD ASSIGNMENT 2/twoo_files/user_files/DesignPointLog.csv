@@ -1,0 +1,35 @@
+﻿# 
+# This file contains the parameter values of the Design Points successfully updated by Ansys Workbench.
+# Project name: q2contin
+# Creation date: 11/11/2023 14:55:11
+# 
+# 11/11/2023 14:55:11
+# The parameters defined in the project are:
+# ,P1 - Edge Sizing Number of Divisions
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P1
+DP 0,5
+# 
+# A non parametric change occurred and invalidated design point results.
+# 11/11/2023 20:35:04
+# 
+# 
+# A non parametric change occurred and invalidated design point results.
+# 11/12/2023 03:10:45
+# 
+# 
+# 11/12/2023 03:22:49
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P1 - Edge Sizing Number of Divisions,P2 - AVG-VEL-OUT [m s^-1]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P1,P2
+DP 1,10,4.9998721
+DP 2,20,4.9998721
+DP 3,40,4.9998721
+DP 4,80,4.9998719
+# 
+# A non parametric change occurred and invalidated design point results.
+# 11/12/2023 04:34:48
+# 
